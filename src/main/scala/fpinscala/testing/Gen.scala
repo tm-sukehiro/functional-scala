@@ -1,9 +1,9 @@
-package testing
+package fpinscala.testing
 
-import laziness.Stream
-import state._
-import parallelism._
-import parallelism.Par.Par
+import fpinscala.laziness.Stream
+import fpinscala.state._
+import fpinscala.parallelism._
+import fpinscala.parallelism.Par.Par
 import Gen._
 import Prop._
 import java.util.concurrent.{Executors, ExecutorService}

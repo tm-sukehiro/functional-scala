@@ -1,4 +1,4 @@
-package errorhandling
+package fpinscala.errorhandling
 
 sealed trait Either[+E, +A] {
   def map[B](f: A => B): Either[E, B] =
